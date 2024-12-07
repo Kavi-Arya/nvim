@@ -6,12 +6,12 @@ local M = {
 }
 
 function M.config()
-  local icons = require "user.icons"
-  local diff = {
-    "diff",
-    colored = false,
-    symbols = { added = icons.git.LineAdded, modified = icons.git.LineModified, removed = icons.git.LineRemoved }, -- Changes the symbols used by the diff.
-  }
+  -- local icons = require "user.icons"
+  -- local diff = {
+  --   "diff",
+  --   colored = f,
+  --   symbols = { added = icons.git.LineAdded, modified = icons.git.LineModified, removed = icons.git.LineRemoved }, -- Changes the symbols used by the diff.
+  -- }
 
   local diagnostics = {
     "diagnostics",
