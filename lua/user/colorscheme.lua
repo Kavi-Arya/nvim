@@ -1,5 +1,5 @@
 local M = {
-  -- "LunarVim/darkplus.nvim",
+  "LunarVim/darkplus.nvim",
   -- "Mofiqul/vscode.nvim",
   -- "sainnhe/gruvbox-material",
   -- "shaunsingh/nord.nvim",
@@ -7,11 +7,11 @@ local M = {
   -- "sainnhe/everforest",
   -- "catppuccin/nvim",
   -- "cryptomilk/nightcity.nvim",
-  "rose-pine/neovim",
+  -- "rose-pine/neovim",
 }
 
 function M.config()
-  vim.cmd.colorscheme "rose-pine"
+  vim.cmd.colorscheme "darkplus"
 end
 
 return M

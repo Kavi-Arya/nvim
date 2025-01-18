@@ -79,3 +79,6 @@ keymap("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 keymap("n", "<leader>m", "`")
 keymap("n", "<leader>M", '"')
+
+keymap("n", "<c-j>", "<c-d>zz")
+keymap("n", "<c-k>", "<c-u>zz")

@@ -10,7 +10,7 @@ local M = {
     workspaces = {
       {
         name = "Main",
-        path = "/Users/augest/Library/Mobile Documents/com~apple~CloudDocs/Upsc",
+        path = "/home/kvl/Drive2/myVault",
       },
     },
   },
