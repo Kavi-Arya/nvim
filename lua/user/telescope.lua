@@ -35,7 +35,7 @@ function M.config()
       desc = "Projects",
     },
     {
-      "<leader>ft",
+      "<leader>fw",
       "<cmd>Telescope live_grep<cr>",
       desc = "Find Text",
     },

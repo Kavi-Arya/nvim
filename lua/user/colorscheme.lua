@@ -1,4 +1,5 @@
 local M = {
+  -- "Kavi-Arya/redshit",
   "LunarVim/darkplus.nvim",
   -- "Mofiqul/vscode.nvim",
   -- "sainnhe/gruvbox-material",

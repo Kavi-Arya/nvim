@@ -82,3 +82,13 @@ keymap("n", "<leader>M", '"')
 
 keymap("n", "<c-j>", "<c-d>zz")
 keymap("n", "<c-k>", "<c-u>zz")
+
+keymap("i", "<C-b>", "<ESC>^i", { desc = "move beginning of line" })
+keymap("i", "<C-e>", "<End>", { desc = "move end of line" })
+keymap("i", "<C-h>", "<Left>", { desc = "move left" })
+keymap("i", "<C-l>", "<Right>", { desc = "move right" })
+keymap("i", "<C-j>", "<Down>", { desc = "move down" })
+keymap("i", "<C-k>", "<Up>", { desc = "move up" })
+
+keymap("n", "<C-h>", "<C-w>h", { desc = "switch window left" })
+keymap("n", "<C-l>", "<C-w>l", { desc = "switch window right" })
